@@ -1,0 +1,180 @@
+body {
+       background-image: url("Assets/background.png");
+}
+
+#score-btn{
+    position: absolute;
+    left: 30%;
+    top: 8%;
+    border: 5px solid #996515;
+    color: goldenrod;
+    font-size: 25px;
+    background-color: goldenrod;
+    font-family: 'Domine', serif;
+    text-align: center;
+}
+
+#wrapper {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 500px;
+    height: 500px;
+    background-color:#D8BFD8;
+    font-family: 'Domine', serif;
+
+}
+
+#start-btn {
+    background-color: #452870;
+    margin-left: 33%;
+    margin-top: 5%;
+    padding: 20px 32px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Domine', serif;
+}
+#questionsDiv {
+    margin: 20px;
+    font-size: 1.2em;
+    font-family: 'Domine', serif;
+}
+
+#currentTime {
+    float: right;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #996515;
+    margin: auto;
+    font-family: 'Domine', serif;
+}
+
+#goBack {
+    background-color: #452870;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: lavender;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Domine', serif;
+}
+
+#clear {
+    background-color: #500000;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    font-family: 'Domine', serif;
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+    font-family: 'Domine', serif;
+}
+
+#submit {
+    background-color: #452870;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: lavender;
+    font-family: 'Domine', serif;
+}
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid #f9f7f7;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Domine', serif;
+}
+
+li {
+    background-color: #452870;
+    margin-top: 30px;
+    padding: 5px 15px;
+    width: 80%;
+    font-size: 18px;
+    color: lavender;
+    font-family: 'Domine', serif;
+}
+p {
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Domine', serif;
+}
+span {
+    font-weight: bolder;
+    color: #2b2e4a;
+    font-family: 'Domine', serif;
+}
+
+#newDiv {
+    padding-top: 50px;
+    border-top: 1px solid lavender;
+    font-weight:bolder;
+    font-family: 'Domine', serif;
+    font-size: larger;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 786px) {
+body {
+    max-width: 786px;
+}
+#wrapper {
+position: absolute;
+left: 20%;
+}
+
+#score-btn{
+position: absolute;
+left: 30%;
+}
+
+#start-btn {
+position: absolute;
+left: 5%;
+}
+}
+
+@media screen and (max-width: 640px) {
+body {
+    min-width: 640px;
+}
+
+#wrapper {
+position: absolute;
+left: 05%;
+}
+
+#score-btn{
+position: absolute;
+left: 20%;
+}
+#start-btn {
+position: absolute;
+left: 5%;
+    }
+}
